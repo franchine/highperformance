@@ -5,6 +5,8 @@
   <meta charset="utf-8">
   <title>D3 Radar Chart</title>
   <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+  <script src="http://code.angularjs.org/1.3.5/angular.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/css/bootstrap.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" />
@@ -29,11 +31,11 @@
     <div class="visualization col-xs-7">
       <p>Select dataset:
         <select ng-options="example for example in radar.examples" ng-model="radar.exampleSelected" ng-change="radar.selectExample(radar.exampleSelected)">
-          <option value="0" label="comd_avg_data">comd_avg_data</option>
-          <option value="1" label="ft_avg_data">ft_avg_data</option>
-          <option value="2" selected="selected" label="kripke_avg_data">kripke_avg_data</option>
-          <option value="3" label="lu_avg_data">lu_avg_data</option>
-          <option value="4" label="mg_avg_data">mg_avg_data</option>
+          <option value="0" label="comd_avg">comd_avg</option>
+          <option value="1" label="ft_avg">ft_avg</option>
+          <option value="2" selected="selected" label="kripke_avg">kripke_avg</option>
+          <option value="3" label="lu_avg">lu_avg</option>
+          <option value="4" label="mg_avg">mg_avg</option>
         </select>
       </p>
       <div class="visualization">
@@ -74,7 +76,6 @@
           <label class="checkbox"><input type="checkbox" ng-model="radar.config.showLevelsLabels" />Levels Labels</label>
           <label class="checkbox"><input type="checkbox" ng-model="radar.config.showAxesLabels" />Axes Labels</label>
         </div>
-        <p class="text-muted">(NOTE: Not all configuration options are shown, refer to <code>README.md</code> or <code>radarDraw.js</code> for more details)</p>
       </form>
     </div>
   </div>
@@ -138,9 +139,7 @@
 
 
   <!-- scripts -->
-  <script src="http://code.angularjs.org/1.3.5/angular.js"></script>
   <!-- <script src="http://d3js.org/d3.v3.min.js"></script> -->
-  <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
   <script src="./js/app.js"></script>
   <script src="./js/radar.js"></script>
   <script src="./js/radarDraw.js"></script>
