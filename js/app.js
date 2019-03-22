@@ -48,7 +48,7 @@
   
       // function selectExample
       function selectExample(item) {
-        var file = "../csv/" + item + ".csv";
+        var file = "./csv/" + item + ".csv";
         $http.get(file).success(function(data) {
           ctrl.csv = data;
         });
