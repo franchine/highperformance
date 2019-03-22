@@ -1,0 +1,7 @@
+group,axis,value,description
+mg,alg,2.167315175097276,1=spr 2=pak 3=rand
+mg,bw_level,2.9883268482490273, watts
+mg,node_count,2.151750972762646,1=512 2=1024 3=2048 4=4096
+mg,power_cap,1.9669260700389104, 1=64 2=80 3=115
+mg, runtime, 4.864803501945525, millisecs 
+mg,thread_count,2.0583657587548636, 1=16 2=20 3=24
