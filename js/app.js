@@ -14,8 +14,8 @@
       function init() {
         // initialize controller variables
         ctrl.examples = [
-          "kripke_avg",
-          "mg_avg",
+          "kripke_avg_data",
+          "mg_avg_data",
         ];
         ctrl.exampleSelected = ctrl.examples[0];
         ctrl.getData = getData;
