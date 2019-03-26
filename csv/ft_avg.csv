@@ -1,0 +1,7 @@
+group,axis,value,description
+ft,alg,2.191335740072202,1=spr 2=pak 3=rand
+ft,bw_level,3.003610108303249, watts
+ft,node_count,2.137184115523466,1=512 2=1024 3=2048 4=4096
+ft,power_cap,1.9981949458483754, 1=64 2=80 3=115
+ft, runtime,3.4153483754512637, millisecs 
+ft,thread_count,2.1101083032490973, 1=16 2=20 3=24
