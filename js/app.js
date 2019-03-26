@@ -28,10 +28,10 @@
         // initialize controller functions
         ctrl.selectExample(ctrl.exampleSelected);
         ctrl.config = {
-          w: 250,
-          h: 250,
+          w: 300,
+          h: 300,
           facet: false,
-          levels: 5,
+          levels: 4,
           levelScale: 0.85,
           labelScale: 0.9,
           facetPaddingScale: 2.1,
