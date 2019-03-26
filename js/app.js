@@ -18,7 +18,8 @@
           "mg_avg",
           "comd_avg", 
           "ft_avg", 
-          "lu_avg"
+          "lu_avg",
+          "all"
         ];
         ctrl.exampleSelected = ctrl.examples[0];
         ctrl.getData = getData;
